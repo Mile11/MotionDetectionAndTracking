@@ -168,3 +168,4 @@ if __name__ == '__main__':
     #motion_tracking('./LASIESTA/O_CL_02/', extension='.bmp', vidFile=False, extraPrefix='O_CL_02-', minSize=1000, nopad=True)
     #motion_tracking('./LASIESTA/O_RA_01/', extension='.bmp', vidFile=False, extraPrefix='O_RA_01-', minSize=2000, nopad=True)
     #motion_tracking('./LASIESTA/O_RA_02/', extension='.bmp', vidFile=False, extraPrefix='O_RA_02-', minSize=2000, nopad=True)
+    #motion_tracking('./LASIESTA/O_MC_01/', extension='.bmp', vidFile=False, extraPrefix='O_MC_01-', minSize=2000, nopad=True)
