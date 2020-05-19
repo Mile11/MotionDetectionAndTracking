@@ -14,6 +14,10 @@ import os
 import imutils
 
 
+##############################################
+# CORE FUNCTION (OPTICAL FLOW)
+##############################################
+
 def motion_tracking(foldPath, extension='', vidFile=True, frameDigits=3, extraPrefix='', minSize=50, tresh_val=0.8, resiz_am=400, nopad=False,
                     withTest=False, gt_foldPath='', gt_extension='', gt_extraPrefix=''):
 

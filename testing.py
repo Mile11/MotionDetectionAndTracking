@@ -1,6 +1,21 @@
+##############################################
+# DIGITAL IMAGE ANALYSIS AND PROCESSING
+# PROJECT 2019/2020
+# SIMPLE MOTION DETECTION ALGORITHM
+##############################################
+
+##############################################
+# IMPORTS
+##############################################
+
 import numpy as np
 import main_background_subtraction
 import main_optical_flow
+
+
+##############################################
+# TEST PARAMETERS
+##############################################
 
 mainfolds = [
     './LASIESTA'
@@ -41,6 +56,9 @@ min_sizes = {
     'OPTICAL FLOW': 2000,
 }
 
+##############################################
+# MAIN FUNCTION
+##############################################
 
 for t in to_test:
     print(t)

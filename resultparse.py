@@ -1,3 +1,15 @@
+##############################################
+# DIGITAL IMAGE ANALYSIS AND PROCESSING
+# PROJECT 2019/2020
+# SIMPLE MOTION DETECTION ALGORITHM
+##############################################
+
+##############################################
+# UTILITY FUNCTION FOR PARSING RESULTS
+# AND CALCULATING THE AVG ACCURACY OF BOTH
+# MODELS
+##############################################
+
 file = open('results.txt')
 lines = file.readlines()
 

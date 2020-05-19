@@ -13,6 +13,10 @@ import numpy as np
 import os
 import imutils
 
+##############################################
+# CORE FUNCTION (BACKGROUND SUBTRACTION)
+##############################################
+
 
 def motion_tracking(foldPath, extension='', vidFile=True, frameDigits=3, extraPrefix='', minSize=50, nopad=False, resiz_am=600,
                     withTest=False, gt_foldPath='', gt_extension='', gt_extraPrefix=''):
